@@ -10,7 +10,6 @@ const bp = require("body-parser");
 // Creating a new Express app
 const app = express();
 
-// Using body-parser middleware to parse incoming request bodies as JSON
 app.use(bp.json());
 
 // Using body-parser middleware to parse incoming request bodies as URL encoded data
@@ -53,5 +52,5 @@ app.post("/converse", (req, res) => {
 
 // Starting the Express app and listening on port 3000
 app.listen(3000, () => {
-  console.log("Conversational AI assistant listening on port 3000!");
+  console.log("Conversational AI assistant Listening!");
 });
