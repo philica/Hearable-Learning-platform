@@ -263,9 +263,8 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             FeaturedCourseWidget(
-              imageUrl:
-                  'https://img.freepik.com/premium-psd/modern-cheerful-online-course-poster-template-2_635072-104.jpg',
-              courseTitle: 'Advanced Programing',
+              imagePath: 'assets/images/course1.jpg',
+              courseTitle: 'Web Development',
               courseDescription:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ultricies massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed euismod laoreet massa, vel facilisis justo tincidunt sit amet.",
               rating: 4.5,
@@ -275,9 +274,8 @@ class _HomePageState extends State<HomePage> {
               },
             ),
             FeaturedCourseWidget(
-              imageUrl:
-                  'https://i.pinimg.com/1200x/2f/71/08/2f7108adcd8af48b81fc51d9ddc5f61e.jpg',
-              courseTitle: 'Flutter Development Course',
+              imagePath: 'assets/images/course2.jpg',
+              courseTitle: 'Graphics Design',
               courseDescription:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ultricies massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed euismod laoreet massa, vel facilisis justo tincidunt sit amet.",
               rating: 3.5,
@@ -287,9 +285,8 @@ class _HomePageState extends State<HomePage> {
               },
             ),
             FeaturedCourseWidget(
-              imageUrl:
-                  'https://149695847.v2.pressablecdn.com/wp-content/uploads/2023/06/Main-page.png',
-              courseTitle: 'Generative AI Course',
+              imagePath: 'assets/images/course3.jpg',
+              courseTitle: 'English Course',
               courseDescription:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ultricies massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed euismod laoreet massa, vel facilisis justo tincidunt sit amet.",
               rating: 4.3,

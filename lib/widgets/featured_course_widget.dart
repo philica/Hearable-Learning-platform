@@ -3,14 +3,14 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 
 class FeaturedCourseWidget extends StatelessWidget {
-  final String imageUrl;
+  final String imagePath; // Use the image asset path instead of imageUrl
   final String courseTitle;
   final String courseDescription;
   final double rating;
   final VoidCallback onPressed;
 
   FeaturedCourseWidget({
-    required this.imageUrl,
+    required this.imagePath,
     required this.courseTitle,
     required this.courseDescription,
     required this.rating,
@@ -39,7 +39,7 @@ class FeaturedCourseWidget extends StatelessWidget {
                       topRight: Radius.circular(10.0),
                     ),
                     image: DecorationImage(
-                      image: NetworkImage(imageUrl),
+                      image: AssetImage(imagePath), // Use AssetImage
                       fit: BoxFit.cover,
                     ),
                     boxShadow: [

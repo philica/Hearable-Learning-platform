@@ -62,6 +62,8 @@ class LoginPage extends StatelessWidget {
                         Container(
                           padding: EdgeInsets.all(8.0),
                           child: TextField(
+                            obscureText:
+                                true, // Make the password field obscured
                             decoration: InputDecoration(
                               border: InputBorder.none,
                               hintText: "Password",
@@ -104,12 +106,6 @@ class LoginPage extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 70),
-                  Text(
-                    "Forgot Password?",
-                    style: TextStyle(
-                      color: Color.fromRGBO(5, 10, 48, 1),
-                    ),
-                  ),
                 ],
               ),
             ),
